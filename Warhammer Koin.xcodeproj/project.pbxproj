@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFC808DC2100B2EC004D2249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC808DB2100B2EC004D2249 /* AppDelegate.swift */; };
+		FFC808DE2100B2EC004D2249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC808DD2100B2EC004D2249 /* ViewController.swift */; };
+		FFC808E12100B2EC004D2249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC808DF2100B2EC004D2249 /* Main.storyboard */; };
+		FFC808E32100B2F0004D2249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC808E22100B2F0004D2249 /* Assets.xcassets */; };
+		FFC808E62100B2F0004D2249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC808E42100B2F0004D2249 /* LaunchScreen.storyboard */; };
+		FFC808F02100C99C004D2249 /* empty-bullet-shell-fall-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFC808ED2100C995004D2249 /* empty-bullet-shell-fall-01.wav */; };
+		FFC808F12100C99C004D2249 /* gun-gunshot-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFC808EE2100C996004D2249 /* gun-gunshot-01.wav */; };
+		FFC808F22100C99C004D2249 /* gun-trigger-click-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFC808EF2100C99A004D2249 /* gun-trigger-click-01.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFC808D82100B2EC004D2249 /* Warhammer Koin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warhammer Koin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC808DB2100B2EC004D2249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFC808DD2100B2EC004D2249 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFC808E02100B2EC004D2249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC808E22100B2F0004D2249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC808E52100B2F0004D2249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFC808E72100B2F1004D2249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC808ED2100C995004D2249 /* empty-bullet-shell-fall-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "empty-bullet-shell-fall-01.wav"; sourceTree = "<group>"; };
+		FFC808EE2100C996004D2249 /* gun-gunshot-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "gun-gunshot-01.wav"; sourceTree = "<group>"; };
+		FFC808EF2100C99A004D2249 /* gun-trigger-click-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "gun-trigger-click-01.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC808D52100B2EC004D2249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFC808CF2100B2EC004D2249 = {
+			isa = PBXGroup;
+			children = (
+				FFC808DA2100B2EC004D2249 /* Warhammer Koin */,
+				FFC808D92100B2EC004D2249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC808D92100B2EC004D2249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC808D82100B2EC004D2249 /* Warhammer Koin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC808DA2100B2EC004D2249 /* Warhammer Koin */ = {
+			isa = PBXGroup;
+			children = (
+				FFC808DB2100B2EC004D2249 /* AppDelegate.swift */,
+				FFC808DD2100B2EC004D2249 /* ViewController.swift */,
+				FFC808DF2100B2EC004D2249 /* Main.storyboard */,
+				FFC808ED2100C995004D2249 /* empty-bullet-shell-fall-01.wav */,
+				FFC808EE2100C996004D2249 /* gun-gunshot-01.wav */,
+				FFC808EF2100C99A004D2249 /* gun-trigger-click-01.wav */,
+				FFC808E22100B2F0004D2249 /* Assets.xcassets */,
+				FFC808E42100B2F0004D2249 /* LaunchScreen.storyboard */,
+				FFC808E72100B2F1004D2249 /* Info.plist */,
+			);
+			path = "Warhammer Koin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC808D72100B2EC004D2249 /* Warhammer Koin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC808EA2100B2F1004D2249 /* Build configuration list for PBXNativeTarget "Warhammer Koin" */;
+			buildPhases = (
+				FFC808D42100B2EC004D2249 /* Sources */,
+				FFC808D52100B2EC004D2249 /* Frameworks */,
+				FFC808D62100B2EC004D2249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Warhammer Koin";
+			productName = "Warhammer Koin";
+			productReference = FFC808D82100B2EC004D2249 /* Warhammer Koin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC808D02100B2EC004D2249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nikos Papadopulos";
+				TargetAttributes = {
+					FFC808D72100B2EC004D2249 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FFC808D32100B2EC004D2249 /* Build configuration list for PBXProject "Warhammer Koin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC808CF2100B2EC004D2249;
+			productRefGroup = FFC808D92100B2EC004D2249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC808D72100B2EC004D2249 /* Warhammer Koin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC808D62100B2EC004D2249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC808E62100B2F0004D2249 /* LaunchScreen.storyboard in Resources */,
+				FFC808F02100C99C004D2249 /* empty-bullet-shell-fall-01.wav in Resources */,
+				FFC808E32100B2F0004D2249 /* Assets.xcassets in Resources */,
+				FFC808E12100B2EC004D2249 /* Main.storyboard in Resources */,
+				FFC808F22100C99C004D2249 /* gun-trigger-click-01.wav in Resources */,
+				FFC808F12100C99C004D2249 /* gun-gunshot-01.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC808D42100B2EC004D2249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC808DE2100B2EC004D2249 /* ViewController.swift in Sources */,
+				FFC808DC2100B2EC004D2249 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFC808DF2100B2EC004D2249 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC808E02100B2EC004D2249 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFC808E42100B2F0004D2249 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC808E52100B2F0004D2249 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC808E82100B2F1004D2249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFC808E92100B2F1004D2249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC808EB2100B2F1004D2249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLHZVM6WMF;
+				INFOPLIST_FILE = "Warhammer Koin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreekProductions.Warhammer-Koin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFC808EC2100B2F1004D2249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QLHZVM6WMF;
+				INFOPLIST_FILE = "Warhammer Koin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreekProductions.Warhammer-Koin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC808D32100B2EC004D2249 /* Build configuration list for PBXProject "Warhammer Koin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC808E82100B2F1004D2249 /* Debug */,
+				FFC808E92100B2F1004D2249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC808EA2100B2F1004D2249 /* Build configuration list for PBXNativeTarget "Warhammer Koin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC808EB2100B2F1004D2249 /* Debug */,
+				FFC808EC2100B2F1004D2249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC808D02100B2EC004D2249 /* Project object */;
+}
