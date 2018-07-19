@@ -15,8 +15,17 @@ class ViewController: UIViewController {
   //add a starting var with zero value, to use later in random image selector
     var randomImageGen : Int = 0
     @IBOutlet weak var godImage: UIImageView!
+    
+  //add sound files to app
+    let path = Bundle.main.path(forResource: "gun-gunshot-01", ofType:"wav")!
+  
+    
+  //add sound player to app
+    var gunshotSoundEffect: AVAudioPlayer?
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -30,8 +39,14 @@ class ViewController: UIViewController {
     @IBAction func pushButton(_ sender: UIButton) {
        
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
-        
-        
+        do {
+            gunshotSoundEffect = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+            gunshotSoundEffect?.play()
+        } catch {
+            // for future error report
+            print("could not play sound due to some error")
+            
+        }
         randomImageGen = Int(arc4random_uniform(3))
         print(randomImageGen)
         godImage.image = UIImage (named: imageNumberArray[randomImageGen])
