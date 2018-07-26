@@ -11,7 +11,7 @@ import AudioToolbox
 import AVFoundation
 class ViewController: UIViewController {
   //add an adday with 3 images from asset folder
-    let imageNumberArray = ["coin_khorne","coin_nurgle","coin_tzeentch"]
+    let imageNumberArray = ["chaos,khorne,nurgle,slaanesh,tzeentch]
   //add a starting var with zero value, to use later in random image selector
     var randomImageGen : Int = 0
     @IBOutlet weak var godImage: UIImageView!
